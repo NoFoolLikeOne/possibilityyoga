@@ -191,10 +191,15 @@ html {
 
 body {
 	background-color: #935d8c;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/tattoo.jpg");
+	background-blend-mode: multiply;
+	background-repeat: repeat; /* Tiling the background image */
+    background-size: auto; /* Default size for tiling */
+    background-position: top left; /* Starting position for the background image */
+/* 	background-image: url("images/tattoo.jpg"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/tattoo.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/tattoo.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/tattoo.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 }
 
 body.is-preload *,
@@ -214,7 +219,7 @@ body.is-preload *:after {
 
 body {
 	background-color: #935d8c;
-	color: rgba(255, 255, 255, 0.65);
+	color: rgba(255, 255, 255, 0.65); 
 }
 
 body,
